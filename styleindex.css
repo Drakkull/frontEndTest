@@ -1,0 +1,48 @@
+
+#loucura {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    background-color: paleturquoise;
+    font-size: 50px;
+    padding: 35px;
+}
+
+.main{
+    padding: 35px;
+}
+.centralizator{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: greenyellow;
+    font-size: 40px;
+}
+#feed {
+    font-size: 30px;
+
+}
+
+h3{
+    font-size: 28px;
+}
+.itens {
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.listinha{
+    display: inline-block;
+    vertical-align: text-bottom ;
+}
+
+.sub{
+    background-color: aqua;
+}
