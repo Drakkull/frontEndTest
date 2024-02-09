@@ -15,7 +15,7 @@
         <header>
     <div class="box">            
             <h1>
-                <img width="150px" src="creyson.png">
+                <img width="150px" src="creyson.png" alt="LogoClinica">
             </h1>
         <nav>          
             <ul>
@@ -31,20 +31,23 @@
 
        <form>
         <label for="name"> Nome: </label>
-        <input type="text" id="name" class="inputa">
+        <input type="text" id="name" class="inputa" required>
         
         <label for="mail"> Email: </label>
-        <input type="text" id="mail" class="inputa">
+        <input type="text" id="mail" class="inputa" required>
         
         <label for="cel"> Tel: </label>
-        <input type="text" id="cel" class="inputa">
+        <input type="text" id="cel" class="inputa" required>
 
         <label for="message">Sugestões:</label>
         <textarea cols="70" rows="15" id="message" class="inputa"> </textarea>
-        <div>
+        
+        
+        
+        <fieldset>
             <p>Como fazemos contato contigo, peste?</p>
             <label for="zap">
-                <input type="radio" name="contact" id="zap" value="Whatsapp"> Whatsapp
+                <input type="radio" name="contact" id="zap" value="Whatsapp" checked> Whatsapp
             </label>
             <label for="celula">
                 <input type="radio" name="contact" id="celula" value="Celular"> Celular
@@ -52,10 +55,10 @@
             <label for="zmail">
                 <input type="radio" name="contact" id="zmail" value="Email"> Email
             </label>
-        </div>
+        </fieldset>
 
         <label class="checkbox">
-            <input type="checkbox" id="news" value="yep">Me mandem spam, por favor!
+            <input type="checkbox" id="news" value="yep" checked>Me mandem spam, por favor!
         </label>
 
         <input type="submit" value="DAVAI" class="enviar">
@@ -64,6 +67,19 @@
 
 
        </form>
+
+       <table>
+        <tr>
+            <th>Segunda à Sexta</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr>
+            <td>24 hrs</td>
+            <td>06 às 19</td>
+            <td>Leva seu doido pra casa!</td>
+        </tr>
+       </table>
     
 
 
@@ -74,7 +90,7 @@
     </main>
     <footer>
 
-        <img width="50px" src="creyson.png">
+        <img width="50px" src="creyson.png" alt="LogoClinica">
         <p>&copy Copyright 2024 - Clínica Loucura é uma empresa das Organizações Tabajara</p>
 
     </footer>

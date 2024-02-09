@@ -114,6 +114,22 @@ form label, form p{
     background: aqua;
 }
 
+table{
+    margin-top: 20px 0 40px;
+}
+th{
+    background: #555555;
+    color: pink;
+
+}
+
+th , td{
+    border: 1px solid gray;
+    border-radius: 1px;
+    text-align: center;
+    padding: 15px 8px;
+}
+
 footer{
     background-color: #e8e8e8;
     font-size: 13px;
